@@ -1,0 +1,50 @@
+.footer {
+  position: fixed;
+  color: rgb(157, 202, 90);
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(61, 85, 168);
+  height: 60px;
+  width: 98.3%;
+  border: 2px solid yellow;
+  padding: 10px;
+}
+
+.footer_left {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  color: bisque;
+  width: 300px;
+}
+
+.footer_songLogo {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+  object-fit: contain;
+  background-color: chartreuse;
+}
+
+.footer_songInfo {
+  font-size: 16px;
+}
+
+.footer_center {
+  flex: 0.4;
+  padding: 0 100px;
+  color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 300px;
+}
+
+.footer_right {
+  flex: 0.3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: bisque;
+}
