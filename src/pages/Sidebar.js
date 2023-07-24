@@ -5,6 +5,7 @@ import LibraryMusicIcon from "@mui/icons-material/LibraryMusic";
 import MessageTwoToneIcon from "@mui/icons-material/MessageTwoTone";
 import SidebarOption from "./SidebarOption";
 import "./Sidebar.css";
+import Chatpage from "./pages/Chatpage";
 
 const Sidebar = () => {
   return (
